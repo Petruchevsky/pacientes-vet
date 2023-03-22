@@ -67,7 +67,7 @@ function Formulario ({ paciente, setPaciente, pacientes, setPacientes }) {
 
       <p className="text-lg mt-5 text-center mb-7">
         Añade Pacientes y {""}
-        <span className="text-indigo-600 font-bold">Adminístralos</span>
+        <span className="text-yellow-700 font-bold">Adminístralos</span>
       </p>
 
       <form
@@ -162,7 +162,7 @@ function Formulario ({ paciente, setPaciente, pacientes, setPacientes }) {
         <input
           type="submit"
           value={ paciente.id ? "Guardar Cambios" : "Agregar Paciente"}
-          className="bg-indigo-600 w-full p-3 text-white uppercase rounded-md font-bold hover:bg-indigo-800 cursor-pointer transition-all"
+          className="bg-indigo-600 w-full p-3 text-white uppercase rounded-md font-bold hover:bg-indigo-800 cursor-pointer transition-all shadow-lg shadow-gray-500"
         />
       </form>
     </div>

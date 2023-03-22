@@ -12,7 +12,7 @@ function ListadoPacientes({ pacientes, setPaciente, eliminarPaciente }) {
 
           <p className="text-lg mt-5 mb-7 text-center">
             Administra tus {""}
-            <span className="text-indigo-600 font-bold">Pacientes y Citas</span>
+            <span className="text-green-700 font-bold">Pacientes y Citas</span>
           </p>
 
           {pacientes.map((paciente) => (

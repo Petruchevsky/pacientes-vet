@@ -12,7 +12,7 @@ function Paciente({ paciente, setPaciente, eliminarPaciente }) {
   return (
     <div>
       <div 
-        className='m-3 bg-white shadow-lg px-5 py-10 rounded-lg'>
+        className='m-3 bg-white shadow-lg shadow-gray-300 px-5 py-10 rounded-lg mb-7'>
         <p 
           className='font-bold mb-3 text-gray-700 uppercase'>
             Nombre Mascota: {''}
@@ -46,14 +46,14 @@ function Paciente({ paciente, setPaciente, eliminarPaciente }) {
       <div className='flex justify-evenly'>
           <button 
             onClick={ () => setPaciente(paciente) }
-            className='bg-blue-500 mt-5 font-semibold shadow-lg text-white px-10 py-2 uppercase rounded-md cursor-pointer hover:bg-blue-600 transition-all'>
+            className='bg-blue-500 mt-5 font-semibold shadow-lg shadow-gray-500 text-white px-10 py-2 uppercase rounded-md cursor-pointer hover:bg-blue-600 transition-all'>
             Editar
           </button>
 
           <button
             onClick={ handleEliminar }
             type="button" 
-            className='bg-red-500 mt-5 font-semibold shadow-lg text-white px-8 py-2 uppercase rounded-md cursor-pointer hover:bg-red-700 transition-all'>
+            className='bg-red-500 mt-5 font-semibold shadow-lg shadow-gray-500 text-white px-8 py-2 uppercase rounded-md cursor-pointer hover:bg-red-700 transition-all'>
             Eliminar
           </button>
       </div>
